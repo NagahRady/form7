@@ -1,0 +1,96 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+body
+{
+	background-image:url("image1.jpg");
+	background-size: cover;
+}
+
+
+h1
+{
+text-align: center;
+color: white;
+margin-top: 20px;
+}
+
+form
+{
+	width: 400px;
+	margin:40px auto;
+	background-color: rgba(0,0,0,.5);
+	padding-bottom: 50px;
+	padding-top: 30px;
+
+}
+.l
+{
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	margin-left: 10%;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+label.f
+{
+	display: block;
+	margin-left: 10%;
+	color: #AED2E2;
+	
+}
+input[type='email'],input[type='password']
+{
+	display: block;
+	width: 80%;
+	height: 35px;
+	margin: 20px auto;
+	background-color: unset;
+	border-style: solid;
+}
+
+input[type='checkbox']
+{
+	display:inline-block;
+	margin-left: 10%;
+	margin-right: 10px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+.acccept
+{
+	position: relative;
+	top: -6px;
+	color: #AED2E2;
+}
+input[type='submit']
+{
+	display: block;
+	width: 80%;
+	height: 35px;
+	margin: 20px auto;
+	background-color: #AED2E2;
+	border-style: none;
+	cursor: pointer;
+	
+}
+span
+{
+	display:block;
+	text-align: center;
+	color: #AED2E2;
+}
+.Forget
+{
+	cursor: pointer;
+}
+
+.copy
+{
+	color: white;
+}
